@@ -1334,7 +1334,7 @@ export const teamData = {
             email: "gs25mtech14307@iith.ac.in",
             imageUrl: id39,
             number: "7904086592.0",
-            about: "I love mingling with everyone...",
+            about: "I love mingling with everyone and bring a very jovial, sunshine-like energy wherever I go. I enjoy keeping things bright and positive for the people around me.",
           },
           {
             id: 124,
@@ -1343,7 +1343,7 @@ export const teamData = {
             email: "mi24mtech14005@iith.ac.in",
             imageUrl: id40,
             number: "9000135425.0",
-            about: "I'm someone who really enjoys...",
+            about: "I'm someone who really enjoys being around others. I'm also a fantastic listener. If you had to use adjectives to describe me, they'd be funny, reliable, loyal, and super-chill.",
           },
           {
             id: 125,
@@ -1352,7 +1352,7 @@ export const teamData = {
             email: "em25mtech14006@iith.ac.in",
             imageUrl: id41,
             number: "9315280907.0",
-            about: "I love having good conversations...",
+            about: "I love having good conversations and i am empathetic in nature.",
           },
           {
             id: 126,
@@ -1361,7 +1361,7 @@ export const teamData = {
             email: "cs25mtech12017@iith.ac.in",
             imageUrl: id42,
             number: "9688648426.0",
-            about: "I'm shanmugavignesh...",
+            about: "I'm shanmugavignesh, people usually address me as \"vignesh\" or \"vicky\". I'm always curious to learn new things and exploring myself✨.",
           },
           {
             id: 127,
@@ -1370,7 +1370,7 @@ export const teamData = {
             email: "me25mtech12003@iith.ac.in",
             imageUrl: id43,
             number: "7978975511.0",
-            about: "I am a curious kid...",
+            about: "I am a curious kid, who loves to travel and learn.",
           },
           {
             id: 128,
@@ -1379,7 +1379,7 @@ export const teamData = {
             email: "ce25mtech11005@iith.ac.in",
             imageUrl: id44,
             number: "7619405228.0",
-            about: "Curiosity is my driving force...",
+            about: "Curiosity is my driving force. I am here to learn and explore well beyond academics.",
           },
           {
             id: 129,
@@ -1388,7 +1388,7 @@ export const teamData = {
             email: "am25mtech11007@iith.ac.in",
             imageUrl: id45,
             number: "8519838647.0",
-            about: "Friendly, approachable...",
+            about: "Friendly, approachable, and always here to bring a little comfort and positivity",
           },
           {
             id: 130,
@@ -1397,7 +1397,7 @@ export const teamData = {
             email: "am25mtech14003@iith.ac.in",
             imageUrl: id46,
             number: "8139882033.0",
-            about: "I am an MTech student...",
+            about: "I am an MTech student specialising in additive manufacturing, passionate about learning and eager to showcase my skills in engineering and technology; I am also committed to helping others grow in this field.",
           },
           {
             id: 131,
@@ -1406,7 +1406,7 @@ export const teamData = {
             email: "bt25mtech14014@iith.ac.in",
             imageUrl: id47,
             number: "9665608744.0",
-            about: "Hi, I am Nandini...",
+            about: "Hi, I am Nandini J Nair. I am excited to be a part of the PG Buddy team and look forward to helping create a positive experience for everyone at Sunshine!",
           },
           {
             id: 132,
@@ -1424,7 +1424,7 @@ export const teamData = {
             email: "me25mtech11016@iith.ac.in",
             imageUrl: id49,
             number: "9963558523.0",
-            about: "A seeker who doesn’t stop...",
+            about: "A seeker who doesn’t stop at the surface, a steady mind that moves like a quiet river, always flowing towards understanding.",
           },
           {
             id: 134,
@@ -1433,7 +1433,7 @@ export const teamData = {
             email: "ms25mtech11002@iith.ac.in",
             imageUrl: id50,
             number: "9346859546.0",
-            about: "we are the singing...",
+            about: "\"we are the singing and dancing crap of the world\", I live by this.",
           },
           {
             id: 135,
@@ -1442,7 +1442,7 @@ export const teamData = {
             email: "me25mtech14004@iith.ac.in",
             imageUrl: id51,
             number: "7036218788.0",
-            about: 'With a motto to "Improvise...',
+            about: "With a motto to \"Improvise, Adapt, and Overcome,\" I am a resilient individual, always seeking to learn, grow, and genuinely open to helping others in my journey.",
           },
           {
             id: 136,
@@ -1451,7 +1451,7 @@ export const teamData = {
             email: "ph25mscst11038@iith.ac.in",
             imageUrl: id52,
             number: "9526098803.0",
-            about: "I am a compassionate...",
+            about: "I am a compassionate and caring person and who loves to tryout new things in life.",
           },
           {
             id: 137,
@@ -1460,7 +1460,7 @@ export const teamData = {
             email: "am25mtech11002@iith.ac.in",
             imageUrl: id53,
             number: "7658915409.0",
-            about: "I am koilada bindu...",
+            about: "I am koilada bindu madhava from additive manufacturing program mtech 1st year. I have done my btech in nit kurukshetra. I would like to explore different places and their cultures. I play badminton, cricket, volleyball.",
           },
           {
             id: 138,
@@ -1469,7 +1469,7 @@ export const teamData = {
             email: "cs24mtech02001@iith.ac.in",
             imageUrl: id54,
             number: "8298628723.0",
-            about: "A person who dances...",
+            about: "A person who dances to his own rhythm, writes what his heart whispers, and builds his future line by line.",
           },
           {
             id: 139,
@@ -1478,7 +1478,7 @@ export const teamData = {
             email: "mi25mtech11007@iith.ac.in",
             imageUrl: id55,
             number: "9599017693.0",
-            about: "Hi, I’m Vasu Dev...",
+            about: "Hi, I’m Vasu Dev, I enjoy learning new things and improving myself every day. I look forward to meeting new people and taking on new experiences.",
           },
           {
             id: 140,
@@ -1487,7 +1487,7 @@ export const teamData = {
             email: "ms25mtech11004@iith.ac.in",
             imageUrl: id56,
             number: "6381939778.0",
-            about: "If you are unsure...",
+            about: "If you are unsure of the correct answer, always bet on option C.",
           },
           {
             id: 141,
@@ -1496,7 +1496,7 @@ export const teamData = {
             email: "ee25mtech12008@iith.ac.in",
             imageUrl: id57,
             number: "7306147974.0",
-            about: "Hardworking and self-loving...",
+            about: "Hardworking and self-loving, always aiming to be the best version of myself.",
           },
           {
             id: 142,
@@ -1505,7 +1505,7 @@ export const teamData = {
             email: "cs25mtech02004@iith.ac.in",
             imageUrl: id58,
             number: "8139888072.0",
-            about: "Just another CSE grad...",
+            about: "Just another CSE grad trying to figure out the world.",
           },
           {
             id: 143,
@@ -1514,7 +1514,7 @@ export const teamData = {
             email: "op25mtech11001@iith.ac.in",
             imageUrl: id59,
             number: "9909714710.0",
-            about: "Cheerful and bubbly...",
+            about: "Cheerful and bubbly by nature, I love connecting with people, listening to their stories, and creating a warm, comfortable space with a little goofy energy.",
           },
           {
             id: 144,
@@ -1532,7 +1532,7 @@ export const teamData = {
             email: "cs25mtech12009@iith.ac.in",
             imageUrl: id61,
             number: "7991901675.0",
-            about: "Easygoing and positive...",
+            about: "Easygoing and positive, I’m someone who loves stories, smiles, and connecting with people.",
           },
           {
             id: 146,
@@ -1541,7 +1541,7 @@ export const teamData = {
             email: "me24mtech12002@iith.ac.in",
             imageUrl: id62,
             number: "6381357126.0",
-            about: "I enjoy engaging...",
+            about: "I enjoy engaging in sports, creating useful items from old materials, and occasionally spending time with music. I try to stay happy with what I have and bring positivity wherever I am. I am also happy to share the knowledge and lessons I’ve learned throughout my life.",
           },
           {
             id: 147,
@@ -1550,7 +1550,7 @@ export const teamData = {
             email: "mi24mtech11007@iith.ac.in",
             imageUrl: id63,
             number: "9441730388.0",
-            about: "I'm someone who believes...",
+            about: "I'm someone who believes in kindness, patience, and helping others with honest intention. I’m dependable and disciplined, always committed to doing my best through consistency and hard work. I try to stay humble, sincere, and supportive.",
           },
           {
             id: 148,
@@ -1559,7 +1559,7 @@ export const teamData = {
             email: "mi25mtech11004@iith.ac.in",
             imageUrl: id64,
             number: "8447059290.0",
-            about: "A kind and gentle soul...",
+            about: "A kind and gentle soul ready to help and interact with others",
           },
           {
             id: 149,
@@ -1568,7 +1568,7 @@ export const teamData = {
             email: "me24mtech14014@iith.ac.in",
             imageUrl: id65,
             number: "7083696764.0",
-            about: "I am a person...",
+            about: "I am a person who likes to go for bike rides preferably in early morning and towards the mountain, love to listen music, love to cook different dishes, and party hard. These are the things which make me feel good when I am depressed or in a bad mood. Else I am a very kind and humble person 😜",
           },
           {
             id: 150,
@@ -1577,7 +1577,7 @@ export const teamData = {
             email: "em25mtech11006@iith.ac.in",
             imageUrl: id66,
             number: "8158892809.0",
-            about: "A mindful and empathetic...",
+            about: "A mindful and empathetic who believes in kindness and open conversations.",
           },
           {
             id: 151,
@@ -1586,7 +1586,7 @@ export const teamData = {
             email: "cs23mtech12005@iith.ac.in",
             imageUrl: id67,
             number: "8179699366.0",
-            about: "I’m Manasa from IIT...",
+            about: "I’m Manasa from IIT Hyderabad, and I love supporting and connecting with people. Looking forward to being a positive buddy in Sunshine!",
           },
           {
             id: 152,
@@ -1595,7 +1595,7 @@ export const teamData = {
             email: "am25mtech11002@iith.ac.in",
             imageUrl: id68,
             number: "7658915409.0",
-            about: "I am koilada bindu...",
+            about: "I am koilada bindu madhava from andhra pradesh, vishakapatnam. I like to explore different places and their cultures.",
           },
           {
             id: 153,
@@ -1613,7 +1613,7 @@ export const teamData = {
             email: "me24mtech14012@iith.ac.in",
             imageUrl: id70,
             number: "7447792979.0",
-            about: "I’m someone who enjoys...",
+            about: "I’m someone who enjoys growing, improving, and discovering new possibilities every day.",
           },
           {
             id: 155,
@@ -1622,7 +1622,7 @@ export const teamData = {
             email: "la25ma11008@iith.ac.in",
             imageUrl: id71,
             number: "8714458305.0",
-            about: "Hi i am kalyani...",
+            about: "Hi i am kalyani sojan, i am a first year Ma development studies student from the liberal arts dept.",
           },
           {
             id: 156,
@@ -1631,7 +1631,7 @@ export const teamData = {
             email: "bm25mtech14003@iith.ac.in",
             imageUrl: id72,
             number: "8668003982.0",
-            about: "I’m someone who believes...",
+            about: "I’m someone who believes gentle acts and tiny moments leave the deepest impact.",
           },
           {
             id: 157,
@@ -1640,7 +1640,7 @@ export const teamData = {
             email: "ce25mtech11030@iith.ac.in",
             imageUrl: id73,
             number: "9061757354.0",
-            about: "I am an active and supportive...",
+            about: "I am an active and supportive person who is passionate about others' well-being and creating a positive, supportive space for everyone.",
           },
           {
             id: 158,
@@ -1649,7 +1649,7 @@ export const teamData = {
             email: "bt25mtech14003@iith.ac.in",
             imageUrl: id74,
             number: "9207363841.0",
-            about: "Friendly and approachable...",
+            about: "Friendly and approachable PG buddy, always here to make your campus life easier and brighter!",
           },
           {
             id: 159,
@@ -1658,7 +1658,7 @@ export const teamData = {
             email: "ch25mtech12003@iith.ac.in",
             imageUrl: id75,
             number: "6238777127.0",
-            about: "I am a hardworking...",
+            about: "I am a hardworking, self confident and motivated person, with a heart to aid others in time of trouble and distress.",
           },
           {
             id: 160,
@@ -1667,7 +1667,7 @@ export const teamData = {
             email: "sm24mtech12001@iith.ac.in",
             imageUrl: id76,
             number: "9160081140",
-            about: "I’m someone who understands...",
+            about: "I’m someone who understands that student life gets heavy sometimes, and I’m here to walk beside you through it. Reach out anytime—you’ll always find a friend in me.",
           },
           {
             id: 161,
@@ -1676,7 +1676,7 @@ export const teamData = {
             email: "mi24mtech14002@iith.ac.in",
             imageUrl: id77,
             number: "9989471503",
-            about: "I am a hard-working...",
+            about: "I am a hard-working student, a highly motivated and disciplined student.",
           },
           {
             id: 162,
@@ -1687,6 +1687,8 @@ export const teamData = {
             number: "9936677749",
             about: "Been there done that",
           },
+
+
         ],
       },
     },
