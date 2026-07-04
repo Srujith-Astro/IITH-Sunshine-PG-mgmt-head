@@ -15,10 +15,10 @@ function HomePage() {
       {/* ---------------- EMERGENCY SECTION ---------------- */}
 
       <section className="py-12 px-6">
-        <div className="max-w-6xl mx-auto rounded-[30px] border border-red-200 bg-gradient-to-br from-red-50 via-white to-red-50 shadow-lg px-10 py-10">
+        <div className="max-w-7xl mx-auto rounded-[30px] border border-red-200 bg-gradient-to-br from-red-50 via-white to-red-50 shadow-lg px-10 py-10">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
             {/* Left Side */}
-            <div className="flex items-center gap-6 lg:w-1/2">
+            <div className="flex items-center gap-6 lg:w-[42%]">
               <div className="w-24 h-24 rounded-full bg-orange-100 flex items-center justify-center flex-shrink-0">
                 <HeartHandshake
                   size={44}
@@ -40,7 +40,7 @@ function HomePage() {
             </div>
 
             {/* Right Side */}
-            <div className="grid md:grid-cols-2 gap-5 w-full lg:w-auto">
+            <div className="grid md:grid-cols-2 gap-5 lg:w-[58%]">
               {/* Campus Emergency */}
               <div className="bg-white rounded-3xl border border-red-100 shadow-md p-6 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center gap-3 mb-3">
@@ -59,21 +59,27 @@ function HomePage() {
                     </p>
                   </div>
                 </div>
-                <div className="space-y-1">
+                <div className="space-y-2">
                   {[
-                    "8331036080",
-                    "8331036081",
-                    "8331036082",
-                    "8331036069",
-                    "8331036089",
-                  ].map((number) => (
-                    <a
+                    { name: "Mrs. Yukti Rastogi", number: "8331036080" },
+                    { name: "Ms. Maria Morris", number: "8331036081" },
+                    { name: "Mr. Phani Bhushan", number: "8331036082" },
+                    { name: "Ms. Mahima Pareek", number: "8331036069" },
+                    { name: "Mr. Vinod Dabi", number: "8331036089" },
+                  ].map(({ name, number }) => (
+                    <div
                       key={number}
-                      href={`tel:${number}`}
-                      className="block font-mono font-semibold text-gray-800 hover:text-red-600 transition"
+                      className="flex items-center justify-between gap-4 text-sm"
                     >
-                      {number}
-                    </a>
+                      <span className="text-gray-700 font-medium">{name}</span>
+
+                      <a
+                        href={`tel:${number}`}
+                        className="font-mono font-semibold text-gray-900 hover:text-red-600 transition"
+                      >
+                        {number}
+                      </a>
+                    </div>
                   ))}
                 </div>
               </div>
