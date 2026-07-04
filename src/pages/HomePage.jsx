@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
+import { HeartHandshake, PhoneCall, Headset, CalendarDays, ArrowRight } from "lucide-react";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -11,6 +12,202 @@ function HomePage() {
 
   return (
     <div className="flex flex-col w-full">
+      {/* ---------------- EMERGENCY SECTION ---------------- */}
+
+      <section className="py-12 px-6">
+        <div className="max-w-6xl mx-auto rounded-[30px] border border-red-200 bg-gradient-to-br from-red-50 via-white to-red-50 shadow-lg px-10 py-10">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+            {/* Left Side */}
+            <div className="flex items-center gap-6 lg:w-1/2">
+              <div className="w-24 h-24 rounded-full bg-orange-100 flex items-center justify-center flex-shrink-0">
+                <HeartHandshake
+                  size={44}
+                  className="text-red-500"
+                />
+              </div>
+              <div>
+                {/* <h2 className="text-4xl font-bold text-red-800 mb-3"> */}
+                <h2 className="text-3xl md:text-4xl font-bold text-red-800 mb-2">
+                  Need Help Now?
+                </h2>
+                {/* <p className="text-gray-700 text-lg leading-relaxed"> */}
+                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+                  If you are in distress or need immediate support,
+                  please don't hesitate to reach out.
+                  We are here for you.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Side */}
+            <div className="grid md:grid-cols-2 gap-5 w-full lg:w-auto">
+              {/* Campus Emergency */}
+              <div className="bg-white rounded-3xl border border-red-100 shadow-md p-6 hover:shadow-xl transition-all duration-300">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-12 h-12 rounded-xl bg-red-100 flex items-center justify-center">
+                    <PhoneCall
+                      className="text-red-500"
+                      size={22}
+                    />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-red-600 text-lg">
+                      Campus Emergency
+                    </h3>
+                    <p className="text-xs uppercase tracking-wider text-gray-500">
+                      Available 24/7
+                    </p>
+                  </div>
+                </div>
+                <div className="space-y-1">
+                  {[
+                    "8331036080",
+                    "8331036081",
+                    "8331036082",
+                    "8331036069",
+                    "8331036089",
+                  ].map((number) => (
+                    <a
+                      key={number}
+                      href={`tel:${number}`}
+                      className="block font-mono font-semibold text-gray-800 hover:text-red-600 transition"
+                    >
+                      {number}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              {/* National */}
+              <div className="bg-white rounded-3xl border border-red-100 shadow-md p-6 hover:shadow-xl transition-all duration-300">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-12 h-12 rounded-xl bg-indigo-100 flex items-center justify-center">
+                    <Headset
+                      className="text-indigo-600"
+                      size={22}
+                    />
+                  </div>
+                  <h3 className="font-bold text-gray-800 text-lg">
+                    National Helplines
+                  </h3>
+                </div>
+                <div className="space-y-3">
+                  <div>
+                    <p className="text-gray-500 text-sm">
+                      iCall
+                    </p>
+                    <a
+                      href="tel:9152987821"
+                      className="font-mono font-semibold hover:text-orange-600"
+                    >
+                      9152987821
+                    </a>
+                  </div>
+                  <div>
+                    <p className="text-gray-500 text-sm">
+                      Vandrevala
+                    </p>
+                    <a
+                      href="tel:18602662345"
+                      className="font-mono font-semibold hover:text-orange-600"
+                    >
+                      18602662345
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------------- APPOINTMENT CTA ---------------- */}
+
+      <section className="px-6 -mt-2 mb-6">
+        <div className="max-w-5xl mx-auto">
+          <a
+            href="https://sunshineiith.detalks.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              group
+              flex
+              flex-col
+              md:flex-row
+              items-center
+              justify-between
+              gap-4
+              rounded-[28px]
+              border
+              border-orange-300
+              bg-gradient-to-r
+              from-orange-50
+              via-white
+              to-orange-50
+              px-8
+              py-4
+              shadow-sm
+              transition-all
+              duration-300
+              hover:-translate-y-1
+              hover:shadow-lg
+            "
+          >
+            {/* Left */}
+            <div className="flex items-center gap-5">
+              <div
+                className="
+                  w-14
+                  h-14
+                  rounded-full
+                  bg-orange-500
+                  text-white
+                  flex
+                  items-center
+                  justify-center
+                  shadow-md
+                  group-hover:scale-105
+                  transition-transform
+                "
+              >
+                <CalendarDays size={24} />
+              </div>
+              <div>
+                <h3 className="text-xl md:text-2xl font-semibold text-slate-800 leading-snug">
+                    To book an appointment with the counsellor and to know more
+                </h3>
+
+                <p className="text-gray-500 text-sm mt-1">
+                    Click here to access the Sunshine counselling portal.
+                </p>
+              </div>
+            </div>
+            {/* Button */}
+            <div
+              className="
+                bg-orange-500
+                text-white
+                rounded-2xl
+                px-6
+                py-2.5
+                font-semibold
+                text-sm
+                flex
+                items-center
+                gap-3
+                shadow-md
+                group-hover:bg-orange-600
+                transition-all
+              "
+            >
+              Click Here
+              <ArrowRight
+                size={22}
+                className="group-hover:translate-x-1 transition-transform"
+              />
+            </div>
+          </a>
+        </div>
+      </section>      
 
       {/* --- (Welcome Note) --- */}
       <section className="py-16 px-6 text-center">
@@ -25,7 +222,7 @@ function HomePage() {
             At Sunshine, we believe that mental health is just as important as physical health. Our mission is to create a safe, supportive, and stigma-free environment where students and staff can openly express their feelings, receive professional guidance, and build emotional resilience.
           </p>
           <p className="text-lg text-gray-800 font-medium">
-            Whether you're facing academic stress, relationship challenges, identity concerns, or just need someone to talk to — we're here for you.
+            Whether you're facing academic stress, relationship challenges, identity concerns, or just need someone to talk to - we're here for you.
           </p>
         </div>
       </section>
@@ -116,47 +313,7 @@ function HomePage() {
         </div>
       </section>
 
-
-      {/* --- 4. EMERGENCY SECTION --- */}
-      <section className="py-12 px-6">
-        <div className="max-w-5xl mx-auto border-2 border-red-300 bg-red-50 rounded-3xl p-10 shadow-md">
-          
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            {/* Left Side: Text */}
-            <div className="text-center md:text-left md:w-1/2">
-              <h3 className="text-3xl font-bold text-red-800 mb-3">Need Help Now?</h3>
-              <p className="text-gray-700 text-lg">
-                If you are in distress or need immediate support, please don't hesitate to reach out. We are here for you.
-              </p>
-            </div>
-            
-            {/* Right Side: Contact Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full md:w-auto">
-              
-              {/* Card 1: Campus Emergency */}
-              <div className="bg-white p-5 rounded-2xl shadow-sm border border-red-100">
-                <p className="font-bold text-red-600 mb-1">Campus Emergency</p>
-                <p className="text-xs text-gray-500 mb-2 uppercase tracking-wide">Available 24/7</p>
-                <div className="font-mono text-gray-800 font-medium">
-                  <a href="tel:8331036080" className="hover:text-red-600 hover:underline">8331036080</a>/81/82
-                </div>
-              </div>
-
-              {/* Card 2: National Helplines */}
-              <div className="bg-white p-5 rounded-2xl shadow-sm border border-red-100">
-                <p className="font-bold text-gray-700 mb-2">National Helplines</p>
-                <div className="text-sm space-y-1 text-gray-600">
-                  <p>iCall: <span className="font-mono text-gray-900">9152987821</span></p>
-                  <p>Vandrevala: <span className="font-mono text-gray-900">18602662345</span></p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* --- 5. CARE TEAM & APPROACH --- */}
+      {/* --- 4. CARE TEAM & APPROACH --- */}
       <section className="py-16 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
@@ -194,7 +351,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* --- 6. FOOTER NOTE --- */}
+      {/* --- 5. FOOTER NOTE --- */}
       <section className="py-12 px-6 text-center">
         <div className="max-w-3xl mx-auto">
           <p className="text-xl md:text-2xl font-medium mb-6">
